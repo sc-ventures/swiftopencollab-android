@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, RackspaceCloudActivity!</string>
+    <string name="app_name">Rackspace Cloud</string>
+<string name="username">User Name:</string>
+<string name="apikey">API Key:</string>
+<string name="login">Login</string>
+<string name="authenticating">Authenticating...</string>
+<string name="fields_missing">Fields Missing</string>
+<string name="username_and_apikey_required">User Name and API Key are required.</string>
+<string name="ok">OK</string>
+<string name="country">Country Datacenter</string>
+<string-array name="country_entries">
+     <item>US</item>
+     <item>UK</item>
+</string-array>
+<string-array name="country_values">
+     <item>0</item>
+     <item>1</item>
+</string-array>
+<string name="country_default_value">0</string>
+<string name="preference_name">Preferences</string>
+<string name="weekly_backup_prompt">Select a weekly backup window</string>
+<string-array name="weeklyBackupValues">
+	<item> Disabled</item>
+	<item> Sunday</item>
+	<item> Monday</item>
+	<item> Tuesday</item>
+	<item> Wednesday</item>
+	<item> Thursday</item>
+	<item> Friday</item>
+	<item> Saturday</item>
+</string-array>
+<string name="daily_backup_prompt">Select a daily backup window</string>
+<string-array name="dailyBackupValues">
+	<item> Disabled</item>
+	<item> 0000-0200</item>
+	<item> 0200-0400</item>
+	<item> 0400-0600</item>
+	<item> 0600-0800</item>
+	<item> 0800-1000</item>
+	<item> 1000-1200</item>
+	<item> 1200-1400</item>
+	<item> 1400-1600</item>
+	<item> 1600-1800</item>
+	<item> 1800-2000</item>
+	<item> 2000-2200</item>
+	<item> 2200-0000</item>
+</string-array>
+<string name="change_password_warning">The root password will be updated and the server will be restarted.  This process will only work
+	if you have a user line for \"root\" in your passwd or shadow file.</string>
+<string name="contact_uk">0800-083-3012</string>
+<string name="contact_us">877-934-0407</string>
+<string name="confirm_resize">Confirming the resize will destroy the saved copy of your original server.</string>
+<string name="virtual_ip_type">Virtual\nIp Type</string>
+
+</resources>
